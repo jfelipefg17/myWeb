@@ -4,42 +4,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Página Web</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Enlace a tu archivo CSS (si tienes uno) -->
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>first web</title>
 </head>
 
 <body>
-
 <header>
-  <h1>Mi Página Web</h1>
-  <nav>
-    <ul>
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#acerca-de">Acerca de</a></li>
-      <li><a href="#contacto">Contacto</a></li>
+  <h1 id="logo">FF WEB</h1>
+  <nav id="mainnav">
+    <ul id="lia">
+      <li><a href="#main">About Me</a></li>
+      <li><a href="#contacto">Contact</a></li>
+      <li><a href="#contenedor-de-secciones">Knowledge</a></li>
     </ul>
   </nav>
 </header>
 
-<section id="inicio">
-  <h2>Bienvenido a Mi Página Web</h2>
-  <p>¡Aquí encontrarás contenido interesante!</p>
-</section>
+<main id="main">
+  <section class="princ-section">
+    <div id="centrarTexto">
+      <h2 class="fuente-subtitulo">About me</h2>
+      <p class="fuente-normal">Hi Im Felipe Florez, fifth semester student of Computer Science at EAFIT University in Colombia, interested in the area of back-end development, with Java, Spring, MySQL technologies. Certified courses in scrum, agile methods, programming and many more things, I am interested also in technologies like Go and PHP, I try to learn every day more of this beautiful world of development ❤️.</p>
+    </div>
+  </section>
 
-<section id="acerca-de">
-  <h2>Acerca de Nosotros</h2>
-  <p>Somos una página web dedicada a...</p>
-</section>
+  <div class="princ-section">
+    <img src="/img/Imagen de WhatsApp 2023-06-06 a las 16.11.38.jpg" alt="iamgenes" width="500" height="500" class="windowsStyle">
+  </div>
 
-<section id="contacto">
-  <h2>Contacto</h2>
-  <p>Ponte en contacto con nosotros en contacto@mipaginaweb.com</p>
-</section>
+  <div id="contenedor-de-secciones">
+    <section id="javawindow">
+      <div>
+        <h2 class="fuente-subtitulo">Back-End With Java</h2>
+        <p class="fuente-normal"></p>
+      </div>
+      <div>
+        <img src="/img/certificate.pdf" alt="globant" width="450" height="300" class="windowsStyle">
+      </div>
+      <div class="windows">
+        <ul class="fuente-normal">
+          <li>POO con Java</li>
+          <li>Spring, Spring Boot</li>
+          <li>MySQL</li>
+          <li>Database Connection</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h2 class="fuente-subtitulo">Platzi courses</h2>
+        <p class="fuente-normal"></p>
+      </div>
+      <div>
+        <img src="/img/platzi.png" alt="platzi" width="450" height="300" class="windowsStyle">
+      </div>
+      <div class="windows">
+        <ul class="fuente-normal">
+          <li>Java, MySQL, HTML, CSS, JavaScript, React, PHP, etc.</li>
+          <li>Git y Github, GitLab, Terminal.</li>
+          <li>Scrum, Agile Methods, Teamwork.</li>
+          <li>Logica, Design patterns.</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</main>
 
 <footer>
-  <p>&copy; 2024 Mi Página Web</p>
-</footer>
+  <div class="fuente-normal">
+    <p>create for FF FELIPE FLOREZ</p>
+    <p>SOCIAL MEDIA</p>
 
+    <nav id="contacto">
+      <ul id="li">
+        <li><a href="https://github.com/jfelipefg17/jfelipefg17">GITHUB</a></li>
+        <br>
+        <li><a href="https://www.linkedin.com/in/jfelipefg17/">LINKEDIN</a></li>
+        <br>
+        <li><a href="https://api.whatsapp.com/send?phone=573203212181">WHATSAPP</a></li>
+        <br>
+        <li><a href="https://twitter.com/jfelipefg17">TWITTER</a></li>
+        <br>
+        <li><a href="https://www.instagram.com/felipeflorez17/">INSTAGRAM</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
 </body>
 
 </html>

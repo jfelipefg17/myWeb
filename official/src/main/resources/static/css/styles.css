@@ -1,0 +1,148 @@
+/*  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+/*  */
+body{
+    background-color: rgb(201, 165, 76);
+
+}
+
+/*  */
+#contenedor-de-secciones {
+    display: flex; /* Colocar las secciones una al lado de la otra */
+    justify-content: space-around; /* Espacio entre las secciones */
+}
+
+/*  */
+.princ-section {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+
+}
+
+/* Estilos para el header */
+header {
+    background-color: rgba(201, 165, 76, 0.7);
+    padding: 1px 30px;
+    display: flex;
+    justify-content: space-between; /* Coloca los elementos a ambos lados */
+    align-items: center; /* Centra verticalmente los elementos */
+    position: fixed;
+    width: 100%;
+
+}
+
+/* Estilos para el logo */
+#logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Estilos para el menú de navegación */
+#mainnav ul {
+    list-style-type: none; /* Quita los marcadores de lista */
+    padding: 0;
+    margin: 0;
+}
+
+/*  */
+#mainnav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 80px;
+}
+
+/* Estilos para los enlaces del menú */
+#mainnav ul li a {
+    text-decoration: none; /* Quita la subraya de los enlaces */
+    color: rgb(0, 0, 0); /* Color del texto */
+    font-weight: bold;
+}
+
+/*  */
+#javawindow {
+    float: left;
+}
+
+/*  */
+.windows ul li{
+    list-style-type:circle;
+    padding: 5px ;
+}
+
+/*  */
+.windowsStyle {
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/*  */
+#main {
+    background-color: aliceblue;
+    color:black;
+    padding: 50px;
+}
+
+/*  */
+#centrarTexto{
+    text-align: center; /* Centrar horizontalmente el contenido */
+    max-width: 80%; /* Limitar el ancho del div para evitar superposiciones */
+    margin: 0 auto; /* Centrar el div horizontalmente */
+}
+
+/*  */
+main .princ-section {
+    padding: 20px;
+}
+
+/*  */
+footer{
+    background-color: bisque;
+    width: 100%;
+    padding: 50px;
+}
+
+/*  */
+.princ-section {
+    padding: 20px;
+    margin-top: 20px
+}
+
+/*  */
+.fuente-normal {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  */
+.fuente-subtitulo {
+    color: #6d1313;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*  */
+.fuente-titulo {
+    color: #6d1313;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifßs, serif;
+}
+
+/*  */
+#contacto ul li a{
+    color: #6d1313;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    padding: 20px;
+}
+
+/*  */
+#lia a:hover {
+    color: #ffffff
+}
+
