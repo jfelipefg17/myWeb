@@ -15,60 +15,60 @@ body{
 }
 
 /*  */
-#contenedor-de-secciones {
-    display: flex; /* Colocar las secciones una al lado de la otra */
-    justify-content: space-around; /* Espacio entre las secciones */
+#section-container {
+    display: flex; /* put the sections next to each other */
+    justify-content: space-around; /* space between sections */
 }
 
 /*  */
-.princ-section {
+.print-section {
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* horizontal centered */
+    align-items: center; /* vertical centered */
 
 }
 
-/* Estilos para el header */
+/* styles header */
 header {
     background-color: rgba(201, 165, 76, 0.7);
     padding: 1px 30px;
     display: flex;
-    justify-content: space-between; /* Coloca los elementos a ambos lados */
-    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* put the elements in both sides */
+    align-items: center; /* vertical center the elements */
     position: fixed;
     width: 100%;
 
 }
 
-/* Estilos para el logo */
+/* styles logo */
 #logo {
     font-size: 35px;
     font-weight: bold;
 }
 
-/* Estilos para el menú de navegación */
-#mainnav ul {
-    list-style-type: none; /* Quita los marcadores de lista */
+/* styles nav var */
+#nav-var ul {
+    list-style-type: none; /* remove the points of the list */
     padding: 0;
     margin: 0;
 }
 
 /*  */
-#mainnav ul li {
+#nav-var ul li {
     display: inline-block;
     margin-right: 20px;
     line-height: 80px;
 }
 
-/* Estilos para los enlaces del menú */
-#mainnav ul li a {
-    text-decoration: none; /* Quita la subraya de los enlaces */
-    color: rgb(0, 0, 0); /* Color del texto */
+/* styles menu */
+#nav-var ul li a {
+    text-decoration: none; /* remove the underline */
+    color: rgb(0, 0, 0); /* text color */
     font-weight: bold;
 }
 
 /*  */
-#javawindow {
+#java-window {
     float: left;
 }
 
@@ -79,7 +79,7 @@ header {
 }
 
 /*  */
-.windowsStyle {
+.windows-style {
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -92,14 +92,14 @@ header {
 }
 
 /*  */
-#centrarTexto{
-    text-align: center; /* Centrar horizontalmente el contenido */
-    max-width: 80%; /* Limitar el ancho del div para evitar superposiciones */
-    margin: 0 auto; /* Centrar el div horizontalmente */
+#center-text{
+    text-align: center; /* horizontal center the content */
+    max-width: 80%; /* limit the broad of the div for not overlays*/
+    margin: 0 auto; /* horizontal center the div  */
 }
 
 /*  */
-main .princ-section {
+main .print-section {
     padding: 20px;
 }
 
@@ -111,31 +111,31 @@ footer{
 }
 
 /*  */
-.princ-section {
+.print-section {
     padding: 20px;
     margin-top: 20px
 }
 
 /*  */
-.fuente-normal {
+.basic-font {
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /*  */
-.fuente-subtitulo {
+.tittle-font {
     color: #6d1313;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*  */
-.fuente-titulo {
+.tittle-font {
     color: #6d1313;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifßs, serif;
 }
 
 /*  */
-#contacto ul li a{
+#contact ul li a{
     color: #6d1313;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
     padding: 20px;

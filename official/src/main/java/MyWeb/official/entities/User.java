@@ -1,11 +1,11 @@
 package MyWeb.official.entities;
 
-
 import org.hibernate.annotations.GenericGenerator;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+
+//Entity User, constructor, Getter and Setter.
 
 @Entity
 public class User {
