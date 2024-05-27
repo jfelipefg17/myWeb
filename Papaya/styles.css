@@ -1,0 +1,176 @@
+/* Definición de colores primarios, secundarios y terciarios */
+:root {
+    --primary-color: #FFFFFF; /* Blanco */
+    --secondary-color: #FF18A3; /* Rosado */
+    --tertiary-color: #D80032; /* Rojo oscuro */
+    --black: #000000; /* Negro */
+}
+
+/* Estilos generales para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif; /* Fuente base */
+    line-height: 1.6; /* Altura de línea */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    background-color: var(--primary-color); /* Color de fondo blanco */
+    color: var(--black); /* Texto negro */
+}
+
+/* Contenedor del encabezado */
+.header-container {
+    background: var(--tertiary-color); /* Fondo secundario */
+    color: var(--primary-color); /* Texto blanco */
+    padding: 1em 0; /* Relleno superior e inferior */
+    text-align: center; /* Texto centrado */
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin relleno */
+    text-align: center; /* Centrar elementos del menú */
+}
+
+nav ul li {
+    display: inline; /* Los elementos se muestran en línea */
+    margin: 0 10px; /* Espacio entre elementos */
+}
+
+nav ul li a {
+    color: var(--tertiary-color); /* Color del texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para la navegación y el logo */
+.navbar {
+    background-color: var(--primary-color) !important;
+    justify-content: center; /* Centrar contenido */
+}
+
+.navbar-brand {
+    display: flex; /* Para permitir alinear verticalmente */
+    align-items: center; /* Para alinear verticalmente */
+}
+
+.navbar-brand img {
+    width: 200px; /* Ajusta el ancho del logo según tus preferencias */
+    height: auto; /* Mantén la altura automática para conservar la proporción */
+    margin-right: 10px; /* Opcional: ajusta el espacio entre el logo y el texto */
+}
+
+.navbar-brand, .nav-link {
+    color: var(--tertiary-color) !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: var(--tertiary-color) !important;
+}
+
+/* Alinear a la derecha */
+.ml-auto {
+    margin-left: auto !important;
+}
+
+/* Estilos para las secciones principales */
+.section-container {
+    padding: 2em; /* Relleno */
+    background: var(--primary-color); /* Fondo blanco */
+    margin: 1em 0; /* Margen superior e inferior */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra ligera */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: transform 0.2s; /* Transición para el efecto hover */
+}
+
+/* Efecto hover para secciones */
+.section-container:hover {
+    transform: scale(1.02); /* Escala */
+}
+
+/* Formulario de contacto */
+.contact-form, .quote-form {
+    margin-top: 1em; /* Margen superior */
+}
+
+.contact-form input, .contact-form textarea, .quote-form input, .quote-form textarea {
+    width: 100%; /* Ancho completo */
+    padding: 0.5em; /* Relleno */
+    margin-bottom: 1em; /* Margen inferior */
+    border: 1px solid var(--black); /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Botón del formulario */
+.contact-form button, .quote-form button {
+    background: var(--secondary-color); /* Fondo secundario */
+    color: var(--black); /* Texto blanco */
+    border: 0; /* Sin borde */
+    padding: 0.5em 1em; /* Relleno */
+    cursor: pointer; /* Puntero */
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background 0.3s; /* Transición para el fondo */
+}
+
+/* Efecto hover para el botón */
+.contact-form button:hover, .quote-form button:hover {
+    background: var(--tertiary-color); /* Fondo terciario */
+}
+
+/* Estilos del portafolio */
+.portfolio-items {
+    display: flex; /* Flexbox */
+    flex-wrap: wrap; /* Permitir múltiples filas */
+    justify-content: space-between; /* Espacio entre elementos */
+}
+
+.portfolio-item {
+    flex: 1 1 calc(25% - 1em); /* Ancho flexible */
+    background: var(--primary-color); /* Fondo blanco */
+    margin: 0.5em; /* Margen */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra ligera */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamiento */
+    transition: transform 0.2s; /* Transición para el efecto hover */
+}
+
+/* Efecto hover para el portafolio */
+.portfolio-item:hover {
+    transform: scale(1.05); /* Escala */
+}
+
+.portfolio-item img {
+    width: 100%; /* Ancho completo */
+    height: auto; /* Altura automática */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor sin distorsionar */
+}
+
+.portfolio-item h3, .portfolio-item p {
+    padding: 0.5em; /* Relleno */
+    color: var(--black); /* Texto secundario */
+}
+
+/* Estilos del pie de página */
+footer {
+    background: var(--tertiary-color); /* Fondo secundario */
+    color: var(--black); /* Texto blanco */
+    text-align: center; /* Texto centrado */
+    padding: 1em 0; /* Relleno */
+    position: fixed; /* Posición absoluta */
+    bottom: 0; /* Inferior 0 */
+    width: 100%; /* Ancho completo */
+}
+
+/* Estilos para las redes sociales */
+.social-media {
+    display: flex; /* Usa flexbox */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    margin-top: 2em; /* Margen superior */
+}
+
+.social-media .social-item img {
+    width: 40px; /* Ancho máximo del icono de Instagram */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-bottom: 5px; /* Margen inferior */
+    transition: transform 0.3s; /* Transición para el efecto hover */
+}
+
